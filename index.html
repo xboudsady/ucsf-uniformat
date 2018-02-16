@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UCSF Maximo Uniformat</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Uniformat</h1>
+    <ul>
+        <li>A - Substructure
+            <ul>
+                <li>A10 - Foundations
+                    <ul>
+                        <li>A1010 - Standard Foundation
+                            <ul>
+                                <li>A1011 - Wall Foundations</li>
+                                <li>A1012 - Column Foundations &amp; Pile Caps</li>
+                                <li>A1013 - Perimeter Drainage &amp; Insulation</li>
+                            </ul>
+                        </li>
+                        <li>A1020 - Special Foundation
+                            <ul>
+                                <li>A1021 - Pile Foundations</li>
+                                <li>A1022 - Grade Beams</li>
+                                <li>A1023 - Caissons</li>
+                                <li>A1024 - Underprinting</li>
+                                <li>A1025 - Dewatering</li>
+                                <li>A1026 - Raft Foundations</li>
+                                <li>A1027 - Pressure Injected Grouting</li>
+                                <li>A1029 - Other Special Conditions</li>
+                            </ul>
+                        </li>
+                        <li>A1030 - Slab on Grade
+                            <ul>
+                                <li>A1031 - Standard Slab on Grade</li>
+                                <li>A1032 - Structural Slab on Grade</li>
+                                <li>A1033 - Inclined Slab on Grade</li>
+                                <li>A1034 - Trenches, Pits &amp; Bases</li>
+                                <li>A1035 - Under-Slab Drainage &amp; Insulation</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>A20 - Basement Construction
+                    <ul>
+                        <li>A2010 - Basement Excavation
+                            <ul>
+                                <li>A2011 - Excavation for Basements</li>
+                                <li>A2012 - Structure Back Fill &amp; Compaction</li>
+                                <li>A2013 - Shoring</li>
+                            </ul>
+                        </li>
+                        <li>A2020 - Basement Walls
+                            <ul>
+                                <li>A2021 - Basement Wall Construction</li>
+                                <li>A2022 - Moisture Protection</li>
+                                <li>A2023 - Basement Wall Insulation</li>
+                                <li>A2024 - Interior Skin</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>B - Shell
+            <ul>
+                <li>B10 - Super Structure
+                    <ul>
+                        <li>B1010 - Floor Construction
+                            <ul>
+                                <li>B1011 - Suspended Basement Floor Construction</li>
+                                <li>B1012 - Upper Floors Construction</li>
+                                <li>B1013 - Balcony Floors Construction</li>
+                                <li>B1014 - Ramps</li>
+                                <li>B1015 - Exterior Stairs &amp; Fire Escapes</li>
+                                <li>B1016 - Floor Raceway Systems</li>
+                                <li>B1019 - Other Floor Construction</li>
+                            </ul>
+                        </li>
+                        <li>B1020 - Roof Construction
+                            <ul>
+                                <li>B1021 - Flat Roof Construction</li>
+                                <li>B1022 - Pitched Roof Construction</li>
+                                <li>B1023 - Canopies</li>
+                                <li>B1029 - Other Roof Systems</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>B20 - Exterior Enclosure
+                    <ul>
+                        <li>B2010 - Exterior Walls
+                            <ul>
+                                <li>B2011 - Exterior Wall Construction</li>
+                                <li>B2012 - Parapets</li>
+                                <li>B2013 - Exterior Louvers, Screens, and Fencing
+                                    <ul>
+                                        <li>B201310 - Ventilation Louvers</li>
+                                    </ul>
+                                </li>
+                                <li>B2014 - Exterior Sun Control Devices</li>
+                                <li>B2015 - Balcony Walls &amp; Handrails</li>
+                                <li>B2016 - Exterior Soffits</li>
+                            </ul>
+                        </li>
+                        <li>B2020 - Exterior Windows
+                            <ul>
+                                <li>B2021 - Windows</li>
+                                <li>B2022 - Curtains Wall</li>
+                                <li>B2023 - Storefronts</li>
+                            </ul>
+                        </li>
+                        <li>B2030 - Exterior Doors
+                            <ul>
+                                <li>B2031 - Glazed Doors &mp; Entrances</li>
+                                <li>B2032 - Solid Exterior Doors</li>
+                                <li>B2033 - Revolving Doors</li>
+                                <li>B2034 - Overhead Doors</li>
+                                <li>B2039 - Other Doors &amp; Entrances
+                                    <ul>
+                                        <li>B203910 - Roll Up Doors</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>B30 - Roofing
+                    <ul>
+                        <li>B3010 - Roof Coverings
+                            <ul>
+                                <li>B3011 - Roof Finishes</li>
+                                <li>B3012 - Traffic Toppings &amp; Paving Membranes</li>
+                                <li>B3013 - Roof Insulation &amp; Fill</li>
+                                <li>B3014 - Flashings &amp; Trim</li>
+                                <li>B3015 - Roof Eaves &amp; Soffits</li>
+                                <li>B3016 - Gutter &amp; Downspouts</li>
+                                <li>B3017 - Roof</li>
+                                <li>B3018 - Expansion Joint</li>
+                            </ul>
+                        </li>
+                        <li>B3020 - Roof Openings
+                            <ul>
+                                <li>B3021 - Glazed Roof Openings</li>
+                                <li>B3022 - Roof Hatches</li>
+                                <li>B3023 - Gravity Roof Ventilators</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li> 
+        <li>C - Interiors
+            <ul>
+                <li>C10 - Interior Construction
+                    <ul>
+                        <li>C1010 - Partitions
+                            <ul>
+                                <li>C1011 - Fixed Partitions
+                                    <ul>
+                                        <li>C101110 - Fire &amp; Smoke Walls</li>
+                                    </ul>
+                                </li>
+                                <li>C1012 - Demountable Partitions</li>
+                                <li>C1013 - Retractable Partitions</li>
+                                <li>C1014 - Site Built Toilet Partitions</li>
+                                <li>C1015 - Site Built Compartments Cubicles</li>
+                                <li>C1016 - Interior Balustrades &amp; Screens</li>
+                                <li>C1017 - Iinterior Windows &apm; Storefronts</li>
+                            </ul>
+                        </li>
+                        <li>C1020 - Interior Doors
+                            <ul>
+                                <li>C1021 - Interior Doors
+                                    <ul>
+                                        <li>C102110 - Fire Door</li>
+                                    </ul>
+                                </li>
+                                <li>C1022 - Interior Door Frame</li>
+                                <li>C1023 - Interior Door Hardware</li>
+                                <li>C1024 - Interior Door Wall Opening Elements</li>
+                                <li>C1025 - Interior Door Sidelights &amp; Transom</li>
+                                <li>C1026 - Interior Hatches &amp; Access Doors</li>
+                                <li>C1027 - Door Paiting &amp; Decorations</li>
+                            </ul>
+                        </li>
+                        <li>C1030 - Fittings
+                            <ul>
+                                <li>C1031 - Fabricated Toilet Partitions</li>
+                                <li>C1032 - Fabricated Compartments &amp; Cubicles</li>
+                                <li>C1033 - Storage Shelving &amp; Lockers</li>
+                                <li>C1034 - Ornamental Metals &amp; Handrails</li>
+                                <li>C1035 - Identifying Devices</li>
+                                <li>C1036 - Closet Specialities</li>
+                                <li>C1037 - General Fitting &amp; Misc. Metals</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>C20 - Stairs
+                    <ul>
+                        <li>C2010 - Stair Construction
+                            <ul>
+                                <li>C201010 - Ladder Safety Check</li>
+                                <li>C2011 - Regular Stairs</li>
+                                <li>C2012 - Curved Stairs</li>
+                                <li>C2013 - Spiral Stairs</li>
+                                <li>C2014 - Stair Handrails &amp; Balustrades</li>
+                            </ul>
+                        </li>
+                        <li>C2020 - Stair Finishes
+                            <ul>
+                                <li>C2021 - Stair, Tread, &amp; Landing Finishes</li>
+                                <li>C2022 - Stair Soffits Finishes</li>
+                                <li>C2023 - Stair Handrail &amp; Balustrades Finishes</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>C30 - Interior Finishes
+                    <ul>
+                        <li>C3010 - Wall Finishes
+                            <ul>
+                                <li>C3011 - Wall Finishes to Exterior Walls</li>
+                                <li>C3012 - Wall Finishes to Interior Walls</li>
+                                <li>C3013 - Column Fineshes</li>
+                            </ul>
+                        </li>
+                        <li>C3020 - Floor Finishes
+                            <ul>
+                                <li>C3021 - Floor Toppings</li>
+                                <li>C3022 - Traffic Membranes</li>
+                                <li>C3023 - Hardeners &amp; Sealers</li>
+                                <li>C3024 - Flooring</li>
+                                <li>C3025 - Carpeting</li>
+                                <li>C3026 - Bases, Curbs &amp; Trim</li>
+                                <li>C3027 - Access Pedestal Flooring</li>
+                            </ul>
+                        </li>
+                        <li>C3030 - Ceiling Finishes
+                            <ul>
+                                <li>C3031 - Ceiling Finishes</li>
+                                <li>C3032 - Suspended Ceiling</li>
+                                <li>C3033 - Other Ceiling</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>   
+        <li>D - Services
+            <ul>
+                <li>D10 - Conveying
+                    <ul>
+                        <li>D1010 - Elevators &amp; Lifts
+                            <ul>
+                                <li>D1011 - Passenger Elevator</li>
+                                <li>D1012 - Freight Elevator</li>
+                                <li>D1013 - Lifts</li>
+                            </ul>
+                        </li>
+                        <li>D1020 - Escalators &amp; Moving Walks
+                            <ul>
+                                <li>D1021 - Escalators</li>
+                                <li>D1022 - Moving Walks</li>
+                            </ul>
+                        </li>
+                        <li>D1090 - Other Conveying Systems
+                            <ul>
+                                <li>D1091 - Dumbwaiters</li>
+                                <li>D1092 - Pneumatic Tube Systems</li>
+                                <li>D1093 - Hoists &amp; Cranes</li>
+                                <li>D1094 - Conveyors</li>
+                                <li>D1095 - Chutes</li>
+                                <li>D1096 - Turntables</li>
+                                <li>D1097 - Baggage Handling &amp; Loading Systems</li>
+                                <li>D1098 - Transportations Systems</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>D20 - Plumbing
+                    <ul>
+                        <li>D2010 - Plumbing Fixtures
+                            <ul>
+                                <li>D2011 - Water Closets</li>
+                                <li>D2012 - Urinals</li>
+                                <li>D2013 - Lavatories</li>
+                                <li>D2014 - Sinks</li>
+                                <li>D2015 - Bathtubs</li>
+                                <li>D2016 - Wash Fountains</li>
+                                <li>D2017 - Showers</li>
+                                <li>D2018 - Drinking Fountains &amp; Coolers</li>
+                                <li>D2019 - Bidets &amp; Other Plumbing Fixtures</li>
+                            </ul>
+                        </li>
+                        <li>D2020 - Domestic Water Distribution
+                            <ul>
+                                <li>D202010 - Backflow Prevention Device</li>
+                                <li>D2021 - Cold Water Service</li>
+                                <li>D2022 - Hot Water Service</li>
+                                <li>D2023 - Domestic Water Supply Equipment</li>
+                            </ul>
+                        </li>
+                        <li>D2030 - Sanitary Waste
+                            <ul>
+                                <li>D2031 - Waste Piping</li>
+                                <li>D2032 - Vent Piping</li>
+                                <li>D2033 - Floor Drains</li>
+                                <li>D2034 - Sanitary Waste Equipment</li>
+                                <li>D203410 - Waste Storage Tank</li>
+                                <li>D203411 - Waste System</li>
+                                <li>D2035 - Pipe Insulation</li>
+                            </ul>
+                        </li>
+                        <li>D2040 - Rain Water Drainage
+                            <ul>
+                                <li>D2041 - Pipe &amp; Fittings</li>
+                                <li>D2042 - Roof Drains</li>
+                                <li>D2043 - Rainwater Drainage Equipment</li>
+                                <li>D2044 - Pipe Insulation</li>
+                            </ul>
+                        </li>
+                        <li>D2090 - Other Plumbing Systems
+                            <ul>
+                                <li>D209010 - Compressor</li>
+                                <li>D2091 - Gas Distribution</li>
+                                <li>D2092 - Acid Waste Systems</li>
+                                <li>D2093 - Interceptors</li>
+                                <li>D2094 - Pool Piping &amp; Equipment</li>
+                                <li>D2095 - Decorative Fountain Piping Devices</li>
+                                <li>D2099 - Other Piping Systems</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>D30 - HVAC
+                    <ul>
+                        <li>D3010 - Energy Supply
+                            <ul>
+                                <li>D301010 - Gas Turbine Generator</li>
+                                <li>D3011 - Oil Supply System</li>
+                                <li>D3012 - Gas Supply System</li>
+                                <li>D3013 - Cool Supply System</li>
+                                <li>D3014 - Steam Supply System</li>
+                                <li>D3015 - Hot Water Supply System</li>
+                                <li>D3016 - Solar Energy System</li>
+                                <li>D3017 - Wind Energy System</li>
+                            </ul>
+                        </li>
+                        <li>D3020 - Heat Generating Systems
+                            <ul>
+                                <li>D3021 - Boilers</li>
+                                <li>D3022 - Boiler Room Piping &amp; Specialities</li>
+                                <li>D3023 - Auxiliary Equipment</li>
+                                <li>D3024 - Insulation</li>
+                            </ul>
+                        </li>
+                        <li>D3030 - Cooling Generating Systems
+                            <ul>
+                                <li>D303011 - AirConditioning (Deactivated)</li>
+                                <li>D303012 - Equipment Cooling Water System</li>
+                                <li>D303013 - Induced Draft Fan</li>
+                                <li>D303014 - Sand Filter</li>
+                                <li>D303015 - Air Condition Window</li>
+                                <li>D3031 - Chilled Water Systems</li>
+                                <li>D3032 - Direct Expansion Systems</li>
+                            </ul>
+                        </li>
+                        <li>D3040 - Distribution Systems
+                            <ul>
+                                <li>D304010 - Air Separator</li>
+                                <li>D3041 - Air Distribution Systems</li>
+                                <li>D3042 - Exhaust Ventilation Systems</li>
+                                <li>D3043 - Steam Distribution Systems</li>
+                                <li>D3044 - Hot Water Distriution</li>
+                                <li>D3045 - Chilled Water Distribution</li>
+                                <li>D3046 - Change Over Distribution System</li>
+                                <li>D3047 - Glycol Distribution Systems</li>
+                            </ul>
+                        </li>
+                        <li>D3050 - Terminal Package Units
+                            <ul>
+                                <li>D3051 - Terminal Self-Contained Units</li>
+                                <li>D3052 - Package Units</li>
+                            </ul>
+                        </li>
+                        <li>D3060 - Controls &amp; Instrumentation
+                            <ul>
+                                <li>D3061 - Heating Generating Systems</li>
+                                <li>D3062 - Cooling Generating Systems</li>
+                                <li>D3063 - Heating / Cooling Air Handling Unit</li>
+                                <li>D3064 - Exhaust &amp; Ventilating Systems</li>
+                                <li>D3065 - Hoods &amp; Exhaust Systems</li>
+                                <li>D3066 - Terminal Devices</li>
+                                <li>D3067 - Energy Monitoring &amp; Control</li>
+                                <li>D3068 - Building Automation Systems</li>
+                                <li>D3069 - Other Controls &amp; Instrumentation</li>
+                            </ul>
+                        </li>
+                        <li>D3070 - Systems Testing &amp; Balancing
+                            <ul>
+                                <li>D3071 - Piping System Testing &amp; Balancing</li>
+                                <li>D3072 - Air Systems Testing &amp; Balancing</li>
+                                <li>D3073 - HVAC Commissioning</li>
+                                <li>D3079 - Other Systems Testing &amp; Balancing</li>
+                            </ul>
+                        </li>
+                        <li>D3090 - Other HVAC Systems &amp; Equipment
+                            <ul>
+                                <li>D3091 - Special Cooling Systems &amp; Devices</li>
+                                <li>D3092 - Special Humidity Control</li>
+                                <li>D3093 - Dust &amp; Fume Collectors</li>
+                                <li>D3094 - Air Curtains</li>
+                                <li>D3095 - Air Purifiers</li>
+                                <li>D3096 - Paint Spray Booth Ventilation</li>
+                                <li>D3097 - General Construction Items (HVAC)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>D40 - Fire Proection
+                    <ul>
+                        <li>D4010 - Sprinklers
+                            <ul>
+                                <li>D4011 - Sprinkler Water Supply</li>
+                                <li>D4012 - Sprinkler Pumping Equipment </li>
+                                <li>D4013 - Dry Sprinkler System</li>
+                            </ul>
+                        </li>
+                        <li>D4020 - Standpipes
+                            <ul>
+                                <li>D4021 - Standpipe Waster Supply</li>
+                                <li>D4022 - Pumping Equipment</li>
+                                <li>D4023 - Standpipe Equipment</li>
+                                <li>D4024 - Fire House Equipment</li>
+                            </ul>
+                        </li>
+                        <li>D4030 - Fire Proection Specialities
+                            <ul>
+                                <li>D4031 - Fire Extinguishers</li>
+                                <li>D4032 - Fire Extinguisher Cabinets</li>
+                            </ul>
+                        </li>
+                        <li>D4090 - Other Fire Proection Systems
+                            <ul>
+                                <li>D4091 - Carbon Dioxide Systems</li>
+                                <li>D4092 - Foam Generating Equipment</li>
+                                <li>D4093 - Clean Agent Systems</li>
+                                <li>D4094 - Dry Chemical System</li>
+                                <li>D4095 - Hood &amp; Duct Fire Protection</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>D50 - Electrical
+                    <ul>
+                        <li>D5010 - Electrical Service &amp; Distribution
+                            <ul>
+                                <li>D5011 - High Tension Service &amp; Dist.</li>
+                                <li>D5012 - Low Tension Service &amp; Dist.</li>
+                            </ul>
+                        </li>
+                        <li>D5020 - Lighting &amp; Branch Wiring
+                            <ul>
+                                <li>D5021 - Branch Wiring Devices</li>
+                                <li>D5022 - Lighting Equipment</li>
+                            </ul>
+                        </li>
+                        <li>D5030 - Communications &amp; Security
+                            <ul>
+                                <li>D5031 - Public Address &amp; Music Systems</li>
+                                <li>D5032 - Intercommunication &amp; Paging System</li>
+                                <li>D5033 - Telephone Systems</li>
+                                <li>D5034 - Call Systems</li>
+                                <li>D5035 - Television Systems</li>
+                                <li>D5036 - Clock &amp; Program Systems</li>
+                                <li>D5037 - Fire Alarm Systems</li>
+                                <li>D5038 - Security &amp; Detection Systems</li>
+                                <li>D5039 - Local Area Networks</li>
+                            </ul>
+                        </li>
+                        <li>D5090 - Other Electrical Systems
+                            <ul>
+                                <li>D5091 - Grounding Systems</li>
+                                <li>D5092 - Emergency Light &amp; Power Systems</li>
+                                <li>D5093 - Floor Raceway Sytems</li>
+                                <li>D5094 - General Construction Items (Elect.)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>E - Equipment &amp; Furnishings
+            <ul>
+                <li>E10 - Equipment
+                    <ul>
+                        <li>E1010 - Commercial Equipment
+                            <ul>
+                                <li>E1011 - Security &amp; Vault Equipment</li>
+                                <li>E1012 - Teller &amp; Service Equipment</li>
+                                <li>E1013 - Registration Equipment</li>
+                                <li>E1014 - Checkroom Equipment</li>
+                                <li>E1015 - Mercantile Equipment</li>
+                                <li>E1016 - Landry &amp; Dry Cleaning Equipment</li>
+                                <li>E1017 - Vending Equipment</li>
+                                <li>E1018 - Office Equipment</li>
+                            </ul>
+                        </li>
+                        <li>E1020 - Instutional Equipment
+                            <ul>
+                                <li>E1021 - Ecclesiastical Equipment</li>
+                                <li>E1022 - Library Equipment</li>
+                                <li>E1023 - Theater &amp; Stage Equipment</li>
+                                <li>E1024 - Instrumental Equipment</li>
+                                <li>E1025 - Audio Visual Equipment</li>
+                                <li>E1026 - Detention Equipment</li>
+                                <li>E1027 - Laboratory Equipment</li>
+                                <li>E1028 - Medical Equipment</li>
+                                <li>E1029 - Other Institution Equipment</li>
+                            </ul>
+                        </li>
+                        <li>E1030 - Vehicular Equipment
+                            <ul>
+                                <li>E1031 - Vehicular Service Equipment</li>
+                                <li>E1032 - Parking Control Equipment</li>
+                                <li>E1033 - Loading Dock Equipment</li>
+                                <li>E1039 - Vehicular Equipment</li>
+                            </ul>
+                        </li>
+                        <li>E1090 - Other Equipment
+                            <ul>
+                                <li>E1091 - Maintenance Equipment</li>
+                                <li>E1092 - Solid Waste Handling Equipment</li>
+                                <li>E1093 - Food Service Equipment</li>
+                                <li>E1094 - Residential Equipment</li>
+                                <li>E1095 - Unit Kitchens</li>
+                                <li>E1097 - Window Washign Equipment</li>
+                                <li>E1099 - Other Equipment</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>E20 - Furnishings
+                    <ul>
+                        <li>E2010 - Fixed Furnishings
+                            <ul>
+                                <li>E2011 - Fixed Artwork</li>
+                                <li>E2012 - Fixed Casework</li>
+                                <li>E2013 - Blinds &amp; Other Window Treatment</li>
+                                <li>E2014 - Fixed Floor Grilles &amp; Mats</li>
+                                <li>E2015 - Fixed Multiple Seating</li>
+                                <li>E2016 - Fixed Interior Landscaping</li>
+                            </ul>
+                        </li>
+                        <li>E2020 - Movable Furnishings
+                            <ul>
+                                <li>E2021 - Movable Artwork</li>
+                                <li>E2022 - Furniture &amp; Accessories</li>
+                                <li>E2023 - Movable Rugs &amp; Mats</li>
+                                <li>E2024 - Movable Interior Landscaping</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>F - Special Construction
+            <ul>
+                <li>F10 - Special Construction
+                    <ul>
+                        <li>F1010 - Special Structures
+                            <ul>
+                                <li>F1011 - Air Supported Structures</li>
+                                <li>F1012 - Pre-engineered Structures</li>
+                                <li>F1013 - Other Special Structures</li>
+                            </ul>
+                        </li>
+                        <li>F1020 - Integrated Constructions
+                            <ul>
+                                <li>F1021 - Integrated Assemblies</li>
+                                <li>F1022 - Special Purpose Rooms</li>
+                                <li>F1023 - Other Integrated Construction</li>
+                            </ul>
+                        </li>
+                        <li>F1030 - Special Construction &amp; Demolition
+                            <ul>
+                                <li>F1031 - Sound, Vibrations &amp; Seismic Const.</li>
+                                <li>F1032 - Radiation Protection</li>
+                                <li>F1033 - Special Security Systems</li>
+                                <li>F1034 - Vaults</li>
+                                <li>F1039 - Other Special Construction Systems</li>
+                            </ul>
+                        </li>
+                        <li>F1040 - Special Construction
+                            <ul>
+                                <li>F1041 - Aquatic Facilities</li>
+                                <li>F1042 - Ice Rinks</li>
+                                <li>F1043 - Site Constructed Incinerators</li>
+                                <li>F1044 - Kennels &amp; Animal Shelters</li>
+                                <li>F1045 - Liquid &amp; Gas Storage Tanks</li>
+                                <li>F1049 - Other Special Facilities</li>
+                            </ul>
+                        </li>
+                        <li>F1050 - Special Structures
+                            <ul>
+                                <li>F1051 - Recording Instrumentation</li>
+                                <li>F1052 - Building Automation System</li>
+                                <li>F1059 - Other Special Controls &amp; Instrumentation</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>G - Building Sitework
+            <ul>
+                <li>G30 - Site Mechanical Utilities
+                    <ul>
+                        <li>G3010 - Water Supply
+                            <ul>
+                                <li>G3011 - Potable Water Distribution &amp; Storage</li>
+                                <li>G3012 - Non Potabe Water Distribution &amp; Storage</li>
+                                <li>G3013 - Well Systems</li>
+                                <li>G3014 - Fire Protection Distribution &amp; Storage</li>
+                                <li>G3015 - Pumping Stations</li>
+                            </ul>
+                        </li>
+                        <li>G3020 - Sanitary Sewer
+                            <ul>
+                                <li>G3021 - Piping</li>
+                                <li>G3022 - Manholes &amp; Cleanouts</li>
+                                <li>G3023 - Septic Disposal Systems</li>
+                                <li>G3024 - Lift Stations</li>
+                                <li>G3025 - Packaged Water Waste Treatment Plants</li>
+                                <li>G3026 - Septic Tanks</li>
+                                <li>G3027 - Drain Fields</li>
+                            </ul>
+                        </li>
+                        <li>G3030 - Storm Sewer
+                            <ul>
+                                <li>G3031 - Piping</li>
+                                <li>G3032 - Manholes</li>
+                                <li>G3033 - Hadwalls &amp; Catch Basisn</li>
+                                <li>G3034 - Lift Stations</li>
+                                <li>G3035 - Retention Ponds</li>
+                                <li>G3036 - Ditches &amp; Culverts</li>
+                            </ul>
+                        </li>
+                        <li>G3040 - Heating Distribution
+                            <ul>
+                                <li>G3041 - Steam Supply</li>
+                                <li>G3042 - Condensate Return</li>
+                                <li>G3043 - Hot Water Supply System</li>
+                                <li>G3044 - Pumping Stations</li>
+                            </ul>
+                        </li>
+                        <li>G3050 - Cooling Distribution
+                            <ul>
+                                <li>G3051 - Chilled Water Piping</li>
+                                <li>G3052 - Wells for Cooling/Heating</li>
+                                <li>G3053 - Pumping Stations</li>
+                                <li>G3054 - Cooling Tower on Site</li>
+                            </ul>
+                        </li>
+                        <li>G3060 - Fuel Distribution
+                            <ul>
+                                <li>G3061 - Fuel Piping</li>
+                                <li>G3062 - Fuel Equipment</li>
+                                <li>G3063 - Fuel Storage Tanks</li>
+                                <li>G3064 - Fuel Dispensing Stations</li>
+                            </ul>
+                        </li>
+                        <li>G3090 - Other Site Mechanical Utilities
+                            <ul>
+                                <li>G3091 - Industrial Waste Systems</li>
+                                <li>G3092 - POL (Petroleum Oil &amp; Lubricants) Distribution Systems</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>G40 - Site Electrical Utilities
+                    <ul>
+                        <li>G4010 - Electrical Distribution
+                            <ul>
+                                <li>G4011 - Substations</li>
+                                <li>G4012 - Overhead Power Distribution</li>
+                                <li>G4013 - Underground Power Distribution</li>
+                            </ul>
+                        </li>
+                        <li>G4020 - Site Lighting
+                            <ul>
+                                <li>G4021 - Fixtures &amp; Transformers</li>
+                                <li>G4022 - Poles</li>
+                                <li>G4023 - Wiring Conduits &amp; Ductbanks</li>
+                                <li>G4024 - Site Lighting Controls</li>
+                            </ul>
+                        </li>
+                        <li>G4030 - Site Communication &amp; Security
+                            <ul>
+                                <li>G4031 - Site Communications Systems</li>
+                                <li>G4032 - Site Security &amp; Alarm Systems</li>
+                            </ul>
+                        </li>
+                        <li>G4090 - Other Site Electrical Utilities
+                            <ul>
+                                <li>G4091 - Cathodic Protection</li>
+                                <li>G4092 - Site Emergency Power Generation</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+</body>
+</html>
