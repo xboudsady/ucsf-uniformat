@@ -2,3 +2,45 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
+ul li {
+    list-style-type: none;
+}
+
+.wrap {
+    width: 100%;
+    overflow: auo;
+}
+
+.fleft {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.fright {
+    float: right;
+    height: 400px;
+    width: 50%;
+}
+
+.lvl-1 {
+    font-weight: bold;
+    color: #052049;
+}
+
+.lvl-2 {
+    color: #f26d04;
+}
+
+.lvl-3 {
+    color: #6ea400;
+}
+
+.lvl-4 {
+    color: #007cbe;
+}
+
+.lvl-5 {
+    color: #716fb2;
+}
