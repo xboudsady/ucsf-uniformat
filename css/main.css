@@ -30,17 +30,30 @@ ul li {
 }
 
 .lvl-2 {
+    font-weight: bold;
     color: #f26d04;
 }
 
 .lvl-3 {
+    font-weight: bold;
     color: #6ea400;
 }
 
 .lvl-4 {
+    font-weight: bold;
     color: #007cbe;
 }
 
 .lvl-5 {
+    font-weight: bold;
     color: #716fb2;
+}
+
+.strong {
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.red-text {
+    color: red;
 }
